@@ -7,6 +7,5 @@
 docker --version
 
 # Obtener la informacion de docker
-
 docker info
 ```
