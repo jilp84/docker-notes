@@ -1,11 +1,11 @@
 # Notas de Docker
 
-## Comandos basicos
+### Comandos basicos
 
 ```bash
-# Saber la version instalada de docker
+# Saber la versión instalada de docker
 docker --version
 
-# Obtener la informacion de docker
+# Obtener la información de docker
 docker info
 ```
