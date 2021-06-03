@@ -41,6 +41,15 @@ docker run -it ubuntu
 
 # Detener contenedor
 docker stop <container_id or container_name>
+
+
+sudo docker run -d --name proxy nginx
+sudo docker run --name proxy -p 8080:80 nginx
+sudo docker run --name proxy -d -p 8080:80 nginx
+sudo docker logs proxy
+sudo docker logs -f proxy
+sudo docker logs --tail -f proxy
+sudo docker logs --tail 10 -f proxy
 ```
 
 https://collectednotes.com/barckcode/docker-cheat-sheet
