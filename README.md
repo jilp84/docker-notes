@@ -35,6 +35,12 @@ $ docker container prune
 
 # Eliminar TODOS los contenedores
 $ docker rm -f $(docker ps -aq)
+
+# iniciar contenedor de ubuntu
+docker run -it ubuntu
+
+# Detener contenedor
+docker stop <container_id or container_name>
 ```
 
 https://collectednotes.com/barckcode/docker-cheat-sheet
